@@ -1,0 +1,13 @@
+# Target labels
+ ZMQ
+# Source files and their labels
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZMQ
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZMQ.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/CMakeFiles/ZMQ-complete.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-install.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-mkdir.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-download.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-update.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-patch.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-configure.rule
+/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-build.rule

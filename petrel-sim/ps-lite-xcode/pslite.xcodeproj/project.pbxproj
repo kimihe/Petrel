@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07A5F316034C47F99713D950 /* ZMQ */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D99051C613B47A0A3FB0F36 /* Build configuration list for PBXAggregateTarget "ZMQ" */;
+			buildPhases = (
+				11AA395869124A47B8AE1545 /* CMake Rules */,
+			);
+			dependencies = (
+				062F63CA6A054645B1B3A2B3 /* PBXTargetDependency */,
+			);
+			name = ZMQ;
+			productName = ZMQ;
+		};
+		47A3D243A1F94DAB9A303DF3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 17CEB64B89304021BDAFFE95 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0032A7E56C224DD5919C9984 /* CMake Rules */,
+			);
+			dependencies = (
+				DEB2AFD27B1D4865BF9C8446 /* PBXTargetDependency */,
+				FFD5D713A83B4CA59BF3DF24 /* PBXTargetDependency */,
+				0BF0BA3EFEEC445492A07E05 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E4BEC522E230488AA909E8C7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A9B55F2782245FB976F9AD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E85A3726EE9F44B78013C65A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2BD039D073954F76BE1415ED /* /Users/qihuazhou/Desktop/ps-lite-sss/src/van.cc */ = {isa = PBXBuildFile; fileRef = D62C2BC4CD7347FF8907D7D2 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/van.cc */; };
+		47CA12D880124D14A4DFC5BB /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0B8DF382010D4D8C92E63216 /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */; };
+		4DE7FEADE6A14155B44855B5 /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc.rule */ = {isa = PBXBuildFile; fileRef = C49CAF2FF8474DB5B94CE4BA /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc.rule */; };
+		5C2CB755941D4C92A9007141 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/meta.pb.cc */ = {isa = PBXBuildFile; fileRef = DE8A0A09A98146D0884988E8 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/meta.pb.cc */; };
+		84F35736A1934E0E9A7C20D6 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/customer.cc */ = {isa = PBXBuildFile; fileRef = 690E89008D7B4670A390D593 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/customer.cc */; };
+		8C573957F76B41859EA63A71 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/postoffice.cc */ = {isa = PBXBuildFile; fileRef = 0858A798E4B04BB58B00E8C5 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/postoffice.cc */; };
+		BB1F01F675094BF59050B72B /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc */ = {isa = PBXBuildFile; fileRef = 77CAD20B668E41E09BA4CB44 /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		E3342E33F56D4212BC3D38F4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EEB31D9F4F5145AB8D0D0B3D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F1EE629668FD4E5888E26E7C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F33537F70B7E456F8F9F409E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09D5E22102CE440EBA5C7590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F543E78B9B0044D78B1C6049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BEC522E230488AA909E8C7;
+			remoteInfo = ZERO_CHECK;
+		};
+		3E7549375B2D457F827B3677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F543E78B9B0044D78B1C6049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BEC522E230488AA909E8C7;
+			remoteInfo = ZERO_CHECK;
+		};
+		6D4245F3E75E45EFAFDFC605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F543E78B9B0044D78B1C6049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07A5F316034C47F99713D950;
+			remoteInfo = ZMQ;
+		};
+		B7F02C6A0BC740FC971837D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F543E78B9B0044D78B1C6049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3B191824104031A5B475FF;
+			remoteInfo = pslite;
+		};
+		C5F1753204C140AFB0C44FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F543E78B9B0044D78B1C6049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BEC522E230488AA909E8C7;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0858A798E4B04BB58B00E8C5 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/postoffice.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = postoffice.cc; path = src/postoffice.cc; sourceTree = SOURCE_ROOT; };
+		0B8DF382010D4D8C92E63216 /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		690E89008D7B4670A390D593 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/customer.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = customer.cc; path = src/customer.cc; sourceTree = SOURCE_ROOT; };
+		6ED18B2154514C2D8904B80A /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77CAD20B668E41E09BA4CB44 /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = meta.pb.cc; path = "../ps-lite-xcode/src/meta.pb.cc"; sourceTree = SOURCE_ROOT; };
+		7E59957475B447078DAF1AD7 /* pslite */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpslite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B5C6F88FBD43D6A4EA1A65 /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C49CAF2FF8474DB5B94CE4BA /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = meta.pb.cc.rule; path = "../ps-lite-xcode/src/meta.pb.cc.rule"; sourceTree = SOURCE_ROOT; };
+		D62C2BC4CD7347FF8907D7D2 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/van.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = van.cc; path = src/van.cc; sourceTree = SOURCE_ROOT; };
+		DE8A0A09A98146D0884988E8 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/meta.pb.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = meta.pb.cc; path = src/meta.pb.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		172D0A8E0B3149819079C9C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				690E89008D7B4670A390D593 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/customer.cc */,
+				DE8A0A09A98146D0884988E8 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/meta.pb.cc */,
+				0858A798E4B04BB58B00E8C5 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/postoffice.cc */,
+				D62C2BC4CD7347FF8907D7D2 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/van.cc */,
+				77CAD20B668E41E09BA4CB44 /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		409D428C2B8B408A87B36468 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C49CAF2FF8474DB5B94CE4BA /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8118C4B4533C4C45B3F77339 /* pslite */ = {
+			isa = PBXGroup;
+			children = (
+				172D0A8E0B3149819079C9C4 /* Source Files */,
+				409D428C2B8B408A87B36468 /* CMake Rules */,
+				0B8DF382010D4D8C92E63216 /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */,
+			);
+			name = pslite;
+			sourceTree = "<group>";
+		};
+		9A81BA030A4F4248A040B1DC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A0284C54B4F6448BBF829D98 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9A81BA030A4F4248A040B1DC /* CMake Rules */,
+				B9B5C6F88FBD43D6A4EA1A65 /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B45AF6BE4A7048C587A18533 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B7EF1068BD6C49EE8CE1C551 /* ZMQ */ = {
+			isa = PBXGroup;
+			children = (
+				B45AF6BE4A7048C587A18533 /* CMake Rules */,
+				6ED18B2154514C2D8904B80A /* /Users/qihuazhou/Desktop/ps-lite-sss/CMakeLists.txt */,
+			);
+			name = ZMQ;
+			sourceTree = "<group>";
+		};
+		C1C61CB765C74BE2B3D48319 = {
+			isa = PBXGroup;
+			children = (
+				8118C4B4533C4C45B3F77339 /* pslite */,
+				B7EF1068BD6C49EE8CE1C551 /* ZMQ */,
+				A0284C54B4F6448BBF829D98 /* ALL_BUILD */,
+				E9349273DFAF4DA59A3146E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9349273DFAF4DA59A3146E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E59957475B447078DAF1AD7 /* pslite */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3B191824104031A5B475FF /* pslite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7988BBA27DE4D7280B9CA47 /* Build configuration list for PBXNativeTarget "pslite" */;
+			buildPhases = (
+				2DBFD048B2D64F26A31AC1BD /* CMake Rules */,
+				19733512CFB649CE91BD7210 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A74524892243B59D6193B0 /* PBXTargetDependency */,
+			);
+			name = pslite;
+			productName = pslite;
+			productReference = 7E59957475B447078DAF1AD7 /* pslite */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F543E78B9B0044D78B1C6049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 001A3C1DF4FF49E9B40E152F /* Build configuration list for PBXProject "pslite" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				EEB31D9F4F5145AB8D0D0B3D /* Debug */,
+				E3342E33F56D4212BC3D38F4 /* Release */,
+				F33537F70B7E456F8F9F409E /* MinSizeRel */,
+				F1EE629668FD4E5888E26E7C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C1C61CB765C74BE2B3D48319;
+			projectDirPath = "/Users/qihuazhou/Desktop/ps-lite-sss";
+			projectRoot = "";
+			targets = (
+				47A3D243A1F94DAB9A303DF3 /* ALL_BUILD */,
+				E4BEC522E230488AA909E8C7 /* ZERO_CHECK */,
+				07A5F316034C47F99713D950 /* ZMQ */,
+				8C3B191824104031A5B475FF /* pslite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0032A7E56C224DD5919C9984 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qihuazhou/Desktop/ps-lite-xcode -f /Users/qihuazhou/Desktop/ps-lite-xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0922834A82BD456C957B3064 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		11AA395869124A47B8AE1545 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qihuazhou/Desktop/ps-lite-xcode -f /Users/qihuazhou/Desktop/ps-lite-xcode/CMakeScripts/ZMQ_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2DBFD048B2D64F26A31AC1BD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qihuazhou/Desktop/ps-lite-xcode -f /Users/qihuazhou/Desktop/ps-lite-xcode/CMakeScripts/pslite_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		82934BA98DE3447F87411616 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C1216A0732984C5C8096E342 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E85A3726EE9F44B78013C65A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/qihuazhou/Desktop/ps-lite-xcode -f /Users/qihuazhou/Desktop/ps-lite-xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19733512CFB649CE91BD7210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F35736A1934E0E9A7C20D6 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/customer.cc */,
+				5C2CB755941D4C92A9007141 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/meta.pb.cc */,
+				8C573957F76B41859EA63A71 /* /Users/qihuazhou/Desktop/ps-lite-sss/src/postoffice.cc */,
+				2BD039D073954F76BE1415ED /* /Users/qihuazhou/Desktop/ps-lite-sss/src/van.cc */,
+				BB1F01F675094BF59050B72B /* /Users/qihuazhou/Desktop/ps-lite-xcode/src/meta.pb.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062F63CA6A054645B1B3A2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BEC522E230488AA909E8C7 /* ZERO_CHECK */;
+			targetProxy = 3E7549375B2D457F827B3677 /* PBXContainerItemProxy */;
+		};
+		0BF0BA3EFEEC445492A07E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BEC522E230488AA909E8C7 /* ZERO_CHECK */;
+			targetProxy = 09D5E22102CE440EBA5C7590 /* PBXContainerItemProxy */;
+		};
+		57A74524892243B59D6193B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BEC522E230488AA909E8C7 /* ZERO_CHECK */;
+			targetProxy = C5F1753204C140AFB0C44FD3 /* PBXContainerItemProxy */;
+		};
+		DEB2AFD27B1D4865BF9C8446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C3B191824104031A5B475FF /* pslite */;
+			targetProxy = B7F02C6A0BC740FC971837D2 /* PBXContainerItemProxy */;
+		};
+		FFD5D713A83B4CA59BF3DF24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07A5F316034C47F99713D950 /* ZMQ */;
+			targetProxy = 6D4245F3E75E45EFAFDFC605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		081D54AB991540A59187E658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZMQ;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		08395736E93A4664A650EE1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZMQ;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0F2E3F6C835B408CA167BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		188D8C8800D84DA38649CCA5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZMQ;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4DE11A420130493DADC5F87B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5BBFF49C5F124F40A851CCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode/build";
+			};
+			name = Release;
+		};
+		5D913AF47A78408EAE5A2639 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/qihuazhou/Desktop/ps-lite-sss/pslite","/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-install/include","/Users/qihuazhou/Desktop/ps-lite-sss/include","/Users/qihuazhou/Desktop/ps-lite-xcode/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pslite;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/qihuazhou/Desktop/ps-lite-xcode/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		61AADDDA64584B75ACFA3CDF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6A8E197FE72A486CBB7C4036 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		87343FEA50114FB486DC320F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		90610D1C50014767952262F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9214C3D374F348D9ADECD3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A0912E635B10492CB43689C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZMQ;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A912D7DD9E7A454093B586E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode/build";
+			};
+			name = Debug;
+		};
+		BCC5EB81BC224A4291590146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C32A5FEB33D54D4B87BB1CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C51A25FB39FA4FA590D56126 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		CCF07C00B0F442F6B5D6DD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/qihuazhou/Desktop/ps-lite-sss/pslite","/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-install/include","/Users/qihuazhou/Desktop/ps-lite-sss/include","/Users/qihuazhou/Desktop/ps-lite-xcode/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pslite;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/qihuazhou/Desktop/ps-lite-xcode/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E315A3DC644148B8893CC240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/qihuazhou/Desktop/ps-lite-sss/pslite","/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-install/include","/Users/qihuazhou/Desktop/ps-lite-sss/include","/Users/qihuazhou/Desktop/ps-lite-xcode/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pslite;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/qihuazhou/Desktop/ps-lite-xcode/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F20894F946854C22810F5249 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/qihuazhou/Desktop/ps-lite-sss/pslite","/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-install/include","/Users/qihuazhou/Desktop/ps-lite-sss/include","/Users/qihuazhou/Desktop/ps-lite-xcode/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pslite;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/qihuazhou/Desktop/ps-lite-xcode";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/qihuazhou/Desktop/ps-lite-xcode/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001A3C1DF4FF49E9B40E152F /* Build configuration list for PBXProject "pslite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A912D7DD9E7A454093B586E8 /* Debug */,
+				5BBFF49C5F124F40A851CCEE /* Release */,
+				C51A25FB39FA4FA590D56126 /* MinSizeRel */,
+				90610D1C50014767952262F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		17CEB64B89304021BDAFFE95 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC5EB81BC224A4291590146 /* Debug */,
+				0F2E3F6C835B408CA167BAEA /* Release */,
+				6A8E197FE72A486CBB7C4036 /* MinSizeRel */,
+				87343FEA50114FB486DC320F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D99051C613B47A0A3FB0F36 /* Build configuration list for PBXAggregateTarget "ZMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0912E635B10492CB43689C3 /* Debug */,
+				081D54AB991540A59187E658 /* Release */,
+				08395736E93A4664A650EE1C /* MinSizeRel */,
+				188D8C8800D84DA38649CCA5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A9B55F2782245FB976F9AD2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9214C3D374F348D9ADECD3B1 /* Debug */,
+				C32A5FEB33D54D4B87BB1CED /* Release */,
+				4DE11A420130493DADC5F87B /* MinSizeRel */,
+				61AADDDA64584B75ACFA3CDF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7988BBA27DE4D7280B9CA47 /* Build configuration list for PBXNativeTarget "pslite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E315A3DC644148B8893CC240 /* Debug */,
+				CCF07C00B0F442F6B5D6DD0B /* Release */,
+				5D913AF47A78408EAE5A2639 /* MinSizeRel */,
+				F20894F946854C22810F5249 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F543E78B9B0044D78B1C6049 /* Project object */;
+}

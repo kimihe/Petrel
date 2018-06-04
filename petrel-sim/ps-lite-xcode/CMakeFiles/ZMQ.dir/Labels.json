@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZMQ"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZMQ.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/CMakeFiles/ZMQ-complete.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-install.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-mkdir.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-download.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-update.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-patch.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-configure.rule"
+		},
+		{
+			"file" : "/Users/qihuazhou/Desktop/ps-lite-xcode/external/ZMQ-prefix/src/ZMQ-stamp/CMakeFiles/ZMQ-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ZMQ"
+		],
+		"name" : "ZMQ"
+	}
+}

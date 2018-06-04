@@ -1,0 +1,4 @@
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/pslite.dir
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZMQ.dir
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ALL_BUILD.dir
+/Users/qihuazhou/Desktop/ps-lite-xcode/CMakeFiles/ZERO_CHECK.dir
