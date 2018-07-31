@@ -1,12 +1,12 @@
-# Petrel
+# Falcon
 A lightweight group-aware (coflow-aware) parameter server paradigm.
 
 # Project Guide
 
-### petrel
+### falcon
 A prototype modified from [MXNet](https://github.com/apache/incubator-mxnet).
 
-### petrel-sim
+### falcon-sim
 A simulation based on [ps-lite](https://github.com/dmlc/ps-lite).
 
 
