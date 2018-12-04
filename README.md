@@ -1,4 +1,6 @@
 # Petrel
+> All the practice of Petrel is for project Griffin.
+
 A lightweight group-aware (coflow-aware) parameter server paradigm.
 
 # Project Guide
